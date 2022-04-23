@@ -1,1 +1,1 @@
-# Explain And Practice Angular
+# Explain and practice angular
