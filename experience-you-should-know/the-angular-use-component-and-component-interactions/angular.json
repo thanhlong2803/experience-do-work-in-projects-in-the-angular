@@ -1,12 +1,9 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "cli": {
-    "analytics": "3665f6a7-3f6f-430e-b452-28d7a638c270"
-  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "set-get-localstorage-for-angular": {
+    "the-angular-use-component-and-component-interactions": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -20,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/set-get-localstorage-for-angular",
+            "outputPath": "dist/the-angular-use-component-and-component-interactions",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -30,8 +27,6 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -73,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "set-get-localstorage-for-angular:build:production"
+              "browserTarget": "the-angular-use-component-and-component-interactions:build:production"
             },
             "development": {
-              "browserTarget": "set-get-localstorage-for-angular:build:development"
+              "browserTarget": "the-angular-use-component-and-component-interactions:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -84,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "set-get-localstorage-for-angular:build"
+            "browserTarget": "the-angular-use-component-and-component-interactions:build"
           }
         },
         "test": {
@@ -107,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "set-get-localstorage-for-angular"
+  "defaultProject": "the-angular-use-component-and-component-interactions"
 }

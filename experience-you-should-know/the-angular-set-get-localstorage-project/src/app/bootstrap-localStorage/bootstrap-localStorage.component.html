@@ -1,0 +1,61 @@
+<div class="container">
+  <h2> {{title}}</h2>
+  <div class="container">
+    <form>
+      <div class="form-group">
+        <label>Firstname</label>
+        <input [ngModelOptions]="{standalone:true}" class="form-control" [(ngModel)]="user.firstname" type="text" />
+      </div>
+      <div class="form-group">
+        <label>Lastname</label>
+        <input [ngModelOptions]="{standalone:true}" class="form-control" [(ngModel)]="user.lastname" type="text" />
+      </div>
+      <div class="form-group">
+        <label>Age</label>
+        <input [ngModelOptions]="{standalone:true}" class="form-control" [(ngModel)]="user.age" type="number" />
+      </div>
+      <div class="form-group">
+        <label>Address</label>
+        <input [ngModelOptions]="{standalone:true}" class="form-control" [(ngModel)]="user.address" type="text" />
+      </div>
+    </form>
+    <div class="form-group row" style="float: right; padding: 10px;">
+      <div lass="col-xs-3 text-right" style="margin-right: 10px;"> <button (click)="btAddLocalstorage()" class="btn btn-primary">Add localStorage</button>
+      </div>
+      <div lass="col-xs-3 text-right"> <button (click)="btRemoveLocalstorage()" class="btn btn-danger">Add localStorage</button>
+      </div>
+
+    </div>
+  </div>
+  <table class="table table-bordered">
+    <thead>
+      <tr class="header">
+        <th class="col-xs-1">Firstname</th>
+        <th class="col-xs-3">Lastname</th>
+        <th class="col-xs-3">Age</th>
+        <th class="col-xs-2">Address</th>
+        <th class="col-xs-2">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of userList">
+        <td class="col-xs-1">
+          <input [ngModelOptions]="{standalone:true}" class="form-control" [(ngModel)]="user.firstname" type="text" />
+        </td>
+        <td class="col-xs-3">
+          <input class="form-control" type="text" [ngModelOptions]="{standalone:true}" [(ngModel)]="user.lastname" />
+        </td>
+        <td class="col-xs-3">
+          <input class="form-control" type="number" [ngModelOptions]="{standalone:true}" [(ngModel)]="user.age" />
+        </td>
+        <td class="col-xs-2">
+          <input class="form-control" type="text" [ngModelOptions]="{standalone:true}" [(ngModel)]="user.address" />
+        </td>
+        <td class="col-xs-2">
+          <button style="margin-right: 10px;" (click)="btEditLocalstorage(user)" class="btn btn-primary">Edit </button>
+          <button  (click)="btDeleteLocalstorageById(user)" class="btn btn-danger">Delete </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
