@@ -1,27 +1,14 @@
-# SetGetLocalstorageForAngular
+# We are use localStorage to save information and data in local storage to keep between page refreshes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.17.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ **The desgin save user in localStorage shown below:**
+ 
+ ![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/designUILocalStorage.png) 
+ 
+ **Afer can code CRUD for localStorage and create helper for localStorage**
+ 
+  ![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/crudlcoalstorage.png)
+  ![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/localstoragehelper.png)
+  
+  **Ok, It's enables use set value and get value for localStorage, So It help use for handel Login and Logout and Remember to check validate token and  save value use whereever.**
+  
+  ![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/localbrowser.png)
