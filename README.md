@@ -6,7 +6,7 @@
 |--|--|--|
 |  What is angular? | The angular how import bootstrap for project| Help you use framework and understand struct https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/angular-you-should-know/What-is-angular                     -(Add bootstrap https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/angular-you-should-know/install-the-bootstrap-package)  |
 |  What is use localStorage? | The angular how set and get for localStorage   |It's enables use set value and get value for localStorage, So It help use for handel Login and Logout and Remember to check validate token and save value use whereever. https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/the-angular-set-get-localstorage-project| 
-|What the component and component interactions?|The angular how is use component? | it's enables show information in  localStorage when use componenet and html.  
+|What the component and component interactions?|The angular how is use component? | pendding  
 
 **If you watch and should you spend a little time studying and practicing. Lucky to you and get more understand about it. You get more interested in the angular and net 6**
 
