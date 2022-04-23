@@ -1,12 +1,25 @@
 
 
 
+
 # Let me write to feel myself about angular and in the work to experience always bring value. 
-|  you should know | Exprience you should know  | Description |
-|--|--|--|
-|  What is angular? | The angular how import bootstrap for project| Help you use framework and understand struct https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/angular-you-should-know/What-is-angular                     -(Add bootstrap https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/angular-you-should-know/install-the-bootstrap-package)  |
-|  What is use localStorage? | The angular how set and get for localStorage   |It's enables use set value and get value for localStorage, So It help use for handel Login and Logout and Remember to check validate token and save value use whereever. https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/the-angular-set-get-localstorage-project| 
-|What the component and component interactions?|The angular how is use component? | https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/the-angular-use-component-and-component-interactions  
+
+**+ You should know about the angular**
+
+
+| Explain | Description  |
+|--|--|
+|  What is angular? |  [https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/angular-you-should-know/What-is-angular](https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/angular-you-should-know/What-is-angular) - |
+|What is use localStorage?|It’s enables use set value and get value for localStorage, So It help use for handel Login and Logout and Remember to check validate token and save value use whereever.|
+|What the component and component interactions?|
+
+**+ Exprience you should know about the angular**
+
+| Exprience you should know  | Description |
+|--|--|
+| The angular how import bootstrap for project| https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/angular-you-should-know/install-the-bootstrap-package  |
+| The angular how set and get for localStorage   |It's enables use set value and get value for localStorage, So It help use for handel Login and Logout and Remember to check validate token and save value use whereever. https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/the-angular-set-get-localstorage-project| 
+The angular how is use component and component interactions? | https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/the-angular-use-component-and-component-interactions  
 
 **If you watch and should you spend a little time studying and practicing. Lucky to you and get more understand about it. You get more interested in the angular and net 6**
 
