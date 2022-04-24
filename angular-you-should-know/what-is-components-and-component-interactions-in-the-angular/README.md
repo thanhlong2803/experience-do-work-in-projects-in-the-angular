@@ -8,7 +8,7 @@
 ***Angular is one of the most popular framework in the fornt end technologies. It's a powerful framework due to to the fact that it follows MVC parttern, the MVVM pattern  and component architecture*** 
 
 ***There are many components in the architecture, let me describe a below screenshot.**
-![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/COMPONENT.png)
+![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/explaincomponent.png)
 
 ***The component is description the  above contain of***
 
