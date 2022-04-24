@@ -1,0 +1,36 @@
+<div class="container">
+  <table class="table table-bordered">
+    <thead>
+      <tr class="header">
+        <th class="col-xs-1">Choice employee</th>
+        <th class="col-xs-1">Firstname</th>
+        <th class="col-xs-3">Lastname</th>
+        <th class="col-xs-2">Address</th>
+        <th class="col-xs-2">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of employeeList">
+        <td class="col-xs-1">
+          <input [ngModelOptions]="{standalone:true}" class="form-control" [(ngModel)]="employee.choiceEmployee"
+            type="checkbox" (ngModelChange)="checkChoiceEmployee()"/>
+        </td>
+        <td class="col-xs-1">
+          <input [ngModelOptions]="{standalone:true}" class="form-control" [(ngModel)]="employee.firstname"
+            type="text" />
+        </td>
+        <td class="col-xs-3">
+          <input class="form-control" type="text" [ngModelOptions]="{standalone:true}"
+            [(ngModel)]="employee.lastname" />
+        </td>
+        <td class="col-xs-2">
+          <input class="form-control" type="text" [ngModelOptions]="{standalone:true}" [(ngModel)]="employee.address" />
+        </td>
+        <td class="col-xs-2">
+          <button style="margin-right: 10px;" (click)="btEditEmployee(employee)" class="btn btn-primary">Edit </button>
+          <button (click)="btDeleteEmployee(employee)" class="btn btn-danger">Delete </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
