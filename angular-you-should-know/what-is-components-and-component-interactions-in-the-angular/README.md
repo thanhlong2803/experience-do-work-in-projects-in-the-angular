@@ -22,7 +22,7 @@
 
 ***Let me describe the below screenshot and more understand about the component in the angular, So understand to work with it***
 ![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/COMPONENTINTERACTION.png)
-The component enables description the above screenshot. We have management emplyees in the department contain of :         
+***The component enables description the above screenshot***       
 
 # We can pass data from the component of department to the component get all employee by department interaction throught using  @input() and @output().                                          
  **Component 1:**  Employee of department  =>  ***description :*** Data pass  from   ***The component of department***  to ***The component  get all employee by department***
