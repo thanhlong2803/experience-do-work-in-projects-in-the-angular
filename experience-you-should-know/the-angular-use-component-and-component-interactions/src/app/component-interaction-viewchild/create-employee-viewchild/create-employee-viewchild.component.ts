@@ -5,9 +5,7 @@ import { Employee } from '../model/employee';
 @Component({
   selector: 'app-create-employee-viewchild',
   templateUrl: './create-employee-viewchild.component.html',
-  styleUrls: ['./create-employee-viewchild.component.css'],
-  
-  
+  styleUrls: ['./create-employee-viewchild.component.css'], 
 })
 export class CreateEmployeeUsingViewChildComponent implements AfterViewInit {
   title = 'Create employee';
@@ -15,7 +13,7 @@ export class CreateEmployeeUsingViewChildComponent implements AfterViewInit {
   createModel: Employee = new Employee();
   totalChoiceEmployee: number = 0;
 
-  @ViewChild(EmployeeShareViewChildComponent)  employeeShareViewChildComponent!: EmployeeShareViewChildComponent;
+  @ViewChild('employeeShareViewChildComponent')  employeeShareViewChildComponent!: EmployeeShareViewChildComponent;
 
   constructor() {
     this.employee = new Employee();
@@ -33,7 +31,6 @@ export class CreateEmployeeUsingViewChildComponent implements AfterViewInit {
   }  
 
   totalChoiceEmpolyee() {
-    debugger;
     this.totalChoiceEmployee = this.employeeShareViewChildComponent?.choiceEmployee();
   }
 

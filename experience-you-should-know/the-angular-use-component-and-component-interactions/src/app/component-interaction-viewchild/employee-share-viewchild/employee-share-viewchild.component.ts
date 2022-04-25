@@ -10,22 +10,22 @@ import { Employee } from '../model/employee';
   styleUrls: ['./employee-share-viewchild.component.css']
 })
 export class EmployeeShareViewChildComponent implements OnInit {
-  // @Input() employee = {} as Employee;
+  @Input() employee = {} as Employee;
 
   employeeList: Array<Employee> = [];
 
   constructor() { }
 
-  // ngOnChanges(changes: SimpleChanges): void {
-  //   if (changes.employee != undefined && changes.employee != null &&
-  //     changes.employee.currentValue != changes.employee.previousValue) {
-  //     var employee = changes.employee.currentValue;
-  //     if (this.employee.firstname != undefined) {
-  //       this.employeeList.push(employee);
-  //       this.saveEmployee();
-  //     }
-  //   }
-  // }
+  ngOnChanges(changes: SimpleChanges): void {
+    if (changes.employee != undefined && changes.employee != null &&
+      changes.employee.currentValue != changes.employee.previousValue) {
+      var employee = changes.employee.previousValue;
+      if (employee.firstname != undefined) {
+        this.employeeList.push(employee);
+        this.saveEmployee();
+      }
+    }
+  }
 
   ngOnInit() {
     this.getEmployee();
@@ -40,23 +40,23 @@ export class EmployeeShareViewChildComponent implements OnInit {
   }
 
   private saveEmployee() {
-    localStorageHelper.setItem('employeeList', this.employeeList);
+    localStorageHelper.setItem('ViewChild', this.employeeList);
   }
 
   private deleteEmployee(employee: Employee) {
-    localStorageHelper.removeItem('employeeList');
+    localStorageHelper.removeItem('ViewChild');
     this.employeeList.splice(this.employeeList.findIndex((x: any) => x == employee), 1);
     this.saveEmployee();
   }
 
   private editEmployee(employee: Employee) {
-    localStorageHelper.removeItem('employeeList');
+    localStorageHelper.removeItem('ViewChild');
     this.findIndexAndEdit(employee);
     this.saveEmployee();
   }
 
   private getEmployee() {
-    var getAllUser = localStorageHelper.getItem<Array<Employee>>('employeeList');
+    var getAllUser = localStorageHelper.getItem<Array<Employee>>('ViewChild');
     if (getAllUser != undefined && getAllUser != null && getAllUser.length > 0) {
       this.employeeList = getAllUser;     
     }
@@ -72,8 +72,7 @@ export class EmployeeShareViewChildComponent implements OnInit {
     });
   }
 
-  choiceEmployee(): number {
-    debugger
+  choiceEmployee(): number {     
     return this.employeeList.filter(c => c.choiceEmployee == true).length;
   }
 }
