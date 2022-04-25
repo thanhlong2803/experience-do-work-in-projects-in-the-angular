@@ -15,7 +15,7 @@ export class CreateEmployeeUsingViewChildComponent implements AfterViewInit {
   createModel: Employee = new Employee();
   totalChoiceEmployee: number = 0;
 
-  @ViewChild('viewChildRefName', {read: EmployeeShareViewChildComponent})  employeeShareViewChildComponent!: EmployeeShareViewChildComponent;
+  @ViewChild(EmployeeShareViewChildComponent)  employeeShareViewChildComponent!: EmployeeShareViewChildComponent;
 
   constructor() {
     this.employee = new Employee();
@@ -34,7 +34,7 @@ export class CreateEmployeeUsingViewChildComponent implements AfterViewInit {
 
   totalChoiceEmpolyee() {
     debugger;
-    this.totalChoiceEmployee = this.employeeShareViewChildComponent.choiceEmployee();
+    this.totalChoiceEmployee = this.employeeShareViewChildComponent?.choiceEmployee();
   }
 
 }

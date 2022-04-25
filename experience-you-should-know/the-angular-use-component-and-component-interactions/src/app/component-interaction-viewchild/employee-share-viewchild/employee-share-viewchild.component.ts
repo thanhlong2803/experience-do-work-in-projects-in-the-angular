@@ -9,23 +9,23 @@ import { Employee } from '../model/employee';
   templateUrl: './employee-share-viewchild.component.html',
   styleUrls: ['./employee-share-viewchild.component.css']
 })
-export class EmployeeShareViewChildComponent implements OnInit, OnChanges {
-  @Input() employee = {} as Employee;
+export class EmployeeShareViewChildComponent implements OnInit {
+  // @Input() employee = {} as Employee;
 
   employeeList: Array<Employee> = [];
 
   constructor() { }
 
-  ngOnChanges(changes: SimpleChanges): void {
-    if (changes.employee != undefined && changes.employee != null &&
-      changes.employee.currentValue != changes.employee.previousValue) {
-      var employee = changes.employee.currentValue;
-      if (this.employee.firstname != undefined) {
-        this.employeeList.push(employee);
-        this.saveEmployee();
-      }
-    }
-  }
+  // ngOnChanges(changes: SimpleChanges): void {
+  //   if (changes.employee != undefined && changes.employee != null &&
+  //     changes.employee.currentValue != changes.employee.previousValue) {
+  //     var employee = changes.employee.currentValue;
+  //     if (this.employee.firstname != undefined) {
+  //       this.employeeList.push(employee);
+  //       this.saveEmployee();
+  //     }
+  //   }
+  // }
 
   ngOnInit() {
     this.getEmployee();
