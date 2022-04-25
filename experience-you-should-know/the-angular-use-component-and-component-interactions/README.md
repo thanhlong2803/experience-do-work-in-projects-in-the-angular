@@ -1,5 +1,5 @@
 
-#  We use the component in the angular.Mockup help to do you more understand about it.
+#  We use the component in the angular. Mockup help to do you more understand about it.
 ![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/codeinteractioncomponents.png)
 # Let me build in the project contain of bootstrap and localStorage. 
 | My project| Description|
@@ -18,3 +18,13 @@
 |![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/ngOnchanges.png)|
 |employee-share-component(chid) using @input to receive data from create-employee.component(parent) and employee-share-component(chid) using @output and  `this.totalChoiceEmpolyee.emit(this.employeeList.filter(c => c.choiceEmployee == true).length)` pass data again for  create-employee.component(parent) |
 |![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/createcomponet.png)|
+# The component interaction using viewchild
+|  Screenshot and description |
+|--|
+|![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/viewchild.png) | 
+|I handle submit total employee get nummer from viewchild through totalChoiceEmpolyee() |
+|![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/viewchild1.png) | 
+|In create-employee-viewchild.component.html define #employeeShareViewChildComponent|
+|![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/viewchild3.png) |
+|employee-share-viewchild.component.ts|
+|![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/viewchild2.png) | 
