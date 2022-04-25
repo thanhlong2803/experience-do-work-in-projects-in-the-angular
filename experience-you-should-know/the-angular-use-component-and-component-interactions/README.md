@@ -28,3 +28,4 @@
 |![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/viewchild3.png) |
 |employee-share-viewchild.component.ts|
 |![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/viewchild2.png) | 
+# The component interaction through service
