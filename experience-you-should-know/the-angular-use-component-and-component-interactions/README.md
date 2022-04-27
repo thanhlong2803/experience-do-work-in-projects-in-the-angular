@@ -1,5 +1,5 @@
 
-#  We use the component in the angular. Mockup help to do you more understand about it.
+#  We use the component in the angular. Mockup help you more understand about it.
 ![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/codeinteractioncomponents.png)
 # Let me build in the project contain of bootstrap and localStorage. 
 | My project| Description|
