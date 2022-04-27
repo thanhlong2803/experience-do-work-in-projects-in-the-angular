@@ -15,6 +15,7 @@
 |How to use Directives with Angualar?||
 |Typescript and ES5, ES6 & ES7 Methods You Should Know? |https://blog.alexdevero.com/javascript-arrays/|
 |How To Use Query Parameters with Angular Router?||
+|Why do we have to use @Injectable() and @Inject() in Angular? ||
 
 **+ Exprience you should know about the angular**
 
@@ -24,7 +25,8 @@
 | The angular how set and get for localStorage   | https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/the-angular-set-get-localstorage-project| 
 The angular how is use component and component interactions? | https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/the-angular-use-component-and-component-interactions  
 |How to use Directives with Angualar?|
-|How To Use Query Parameters with Angular Router?||
+|Why do we have to use @Injectable() and @Inject() in Angular||
+|||
 
 **If you watch and should you spend a little time studying and practicing. Lucky to you and get more understand about it. You get more interested in the angular and net 6**
 
