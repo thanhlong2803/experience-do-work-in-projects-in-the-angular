@@ -31,6 +31,8 @@
 # The component interaction through service
 ***Before we start project should create struct***
 |![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/folderService.png) | 
+
+
 Firstly, We create component srevice. 
 How do use @Injectable() and @Inject?
 @Inject() is a manual mechanism for letting Angular know that a parameter must be injected. 
