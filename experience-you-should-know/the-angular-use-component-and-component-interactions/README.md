@@ -29,3 +29,18 @@
 |employee-share-viewchild.component.ts|
 |![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/viewchild2.png) | 
 # The component interaction through service
+***Before we start project should create struct***
+|![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/folderService.png) | 
+Firstly, We create component srevice. 
+How do use @Injectable() and @Inject?
+@Inject() is a manual mechanism for letting Angular know that a parameter must be injected. 
+
+@Injectable() lets Angular know that a class can be used with the dependency injector. @Injectable() is not strictly required if the class has other Angular decorators on it or does not have any dependencies. What is important is that any class that is going to be injected with Angular is decorated. However, best practice is to decorate injectables with @Injectable(), as it makes more sense to the reader.
+
+
+|![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/componentServices.png) | 
+
+|![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/importlibrary.png) | 
+|![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/createservices.png) | 
+|![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/listenservices.png) | 
+
