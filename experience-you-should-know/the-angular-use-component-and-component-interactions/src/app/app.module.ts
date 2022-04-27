@@ -8,6 +8,8 @@ import { EmployeeShareComponent } from './component-interaction-input-and-output
 import { CreateEmployeeComponent } from './component-interaction-input-and-output/create-employee/create-employee.component';
 import { CreateEmployeeUsingViewChildComponent } from './component-interaction-viewchild/create-employee-viewchild/create-employee-viewchild.component';
 import { EmployeeShareViewChildComponent } from './component-interaction-viewchild/employee-share-viewchild/employee-share-viewchild.component';
+import { CreateEmployeeUsingServiceComponent } from './component-interaction-through-service/create-employee-service/create-employee-service.component';
+import { EmployeeShareServiceComponent } from './component-interaction-through-service/employee-share-service/employee-share-service.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,11 @@ import { EmployeeShareViewChildComponent } from './component-interaction-viewchi
     CreateEmployeeComponent,
 
     CreateEmployeeUsingViewChildComponent,
-    EmployeeShareViewChildComponent
+    EmployeeShareViewChildComponent,
+
+    CreateEmployeeUsingServiceComponent,
+    EmployeeShareServiceComponent,
+    
   ],
   imports: [
     BrowserModule,
