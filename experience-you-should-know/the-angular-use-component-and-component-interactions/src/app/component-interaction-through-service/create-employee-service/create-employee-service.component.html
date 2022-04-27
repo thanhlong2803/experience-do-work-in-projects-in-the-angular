@@ -17,12 +17,15 @@
     </form>
 
     <div class="row">
-      <div lass="col-xs-3 text-right" style="margin-right: 10px;"> <button (click)="totalChoiceEmpolyee()"
-        class="btn btn-primary">Total employee</button>
+      <div lass="col-xs-3 text-right" style="margin-right: 10px;"> <button class="btn btn-primary">Total
+          employee</button>
+      </div>
+      <strong>
+        Total employee : {{totalChoiceEmployee}}
+        <span style="color: red;">next Subject Called service return total number success</span>
+      </strong>
     </div>
-      <strong> Total employee : {{totalChoiceEmployee}}</strong>
-    </div>
-    
+
     <div class="form-group row" style="float: right; padding: 10px;">
       <div lass="col-xs-3 text-right" style="margin-right: 10px;"> <button (click)="btAddEmployee()"
           class="btn btn-primary">SAVE</button>
@@ -30,5 +33,4 @@
     </div>
   </div>
 </div>
-
-<app-employee-share-viewchild #employeeShareViewChildComponent [employee]="employee" ></app-employee-share-viewchild>
+<app-employee-share-service [employee]="employee"></app-employee-share-service>

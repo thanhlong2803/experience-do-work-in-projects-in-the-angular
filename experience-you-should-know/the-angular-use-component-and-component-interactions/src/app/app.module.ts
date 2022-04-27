@@ -10,6 +10,7 @@ import { CreateEmployeeUsingViewChildComponent } from './component-interaction-v
 import { EmployeeShareViewChildComponent } from './component-interaction-viewchild/employee-share-viewchild/employee-share-viewchild.component';
 import { CreateEmployeeUsingServiceComponent } from './component-interaction-through-service/create-employee-service/create-employee-service.component';
 import { EmployeeShareServiceComponent } from './component-interaction-through-service/employee-share-service/employee-share-service.component';
+import { CommunicationServiceComponent } from './component-interaction-through-service/communication-service/communication-service';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,7 @@ import { EmployeeShareServiceComponent } from './component-interaction-through-s
     BrowserAnimationsModule,
     FormsModule
   ],
-  providers: [],
+  providers: [CommunicationServiceComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

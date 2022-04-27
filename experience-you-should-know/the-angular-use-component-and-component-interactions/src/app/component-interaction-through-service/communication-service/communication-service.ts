@@ -8,23 +8,27 @@ import { Employee } from "../model/employee";
 export class CommunicationServiceComponent {
     private componentChangeData = new Subject();
     private componentChangeCreateNewData = new Subject<Array<Employee>>();
+    private totalWhenChoiceEmployee = new Subject<number>();
 
     componentChangeData$ = this.componentChangeData.asObservable();
     componentChangeCreateNewData$ = this.componentChangeCreateNewData.asObservable();
-
-    getEmployee() {
-        var getAllUser = localStorageHelper.getItem<Array<Employee>>('ViewChild');
-        this.componentChangeCreateNewData.next(getAllUser);
-    }
+    totalWhenChoiceEmployee$ = this.totalWhenChoiceEmployee.asObservable();
 
     createEmployee(employee: Employee) {
-        var getAllUser = localStorageHelper.getItem<Array<Employee>>('ViewChild');
-        getAllUser.push(employee)
-        localStorageHelper.setItem('ViewChild', getAllUser);
-        this.componentChangeCreateNewData.next(getAllUser)
+        var getAllEmployee = localStorageHelper.getItem<Array<Employee>>('Services');
+        if (getAllEmployee.length > 0) {
+            getAllEmployee.push(employee);
+            localStorageHelper.setItem('Services', getAllEmployee);
+            this.componentChangeCreateNewData.next(getAllEmployee)
+        }
+        else {
+            let employees = new Array<Employee>();
+            employees.push(employee);
+            localStorageHelper.setItem('Services', employees);
+        }
     }
 
-    onRefreshEmployee() {
-        this.componentChangeData.next();
+    totalEmployee(total: number) {
+        this.totalWhenChoiceEmployee.next(total);
     }
 }

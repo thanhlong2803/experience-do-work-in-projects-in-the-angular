@@ -16,22 +16,11 @@ export class EmployeeShareServiceComponent implements OnInit {
   employeeList: Array<Employee> = [];
 
   constructor(private communicationServiceComponent: CommunicationServiceComponent) {
-     //load page next Subject 
-     this.communicationServiceComponent.componentChangeData$.subscribe(event => {
-       debugger
-       this.communicationServiceComponent.getEmployee();
+    //load page next Subject  
+    //When create it show data to call function services.
+    this.communicationServiceComponent.componentChangeCreateNewData$.subscribe(event => {
+      this.getEmployee();
     })
-   }
-
-  ngOnChanges(changes: SimpleChanges): void {
-    if (changes.employee != undefined && changes.employee != null &&
-      changes.employee.currentValue != changes.employee.previousValue) {
-      var employee = changes.employee.previousValue;
-      if (employee.firstname != undefined) {
-        this.employeeList.push(employee);
-        this.saveEmployee();
-      }
-    }
   }
 
   ngOnInit() {
@@ -46,26 +35,25 @@ export class EmployeeShareServiceComponent implements OnInit {
     this.deleteEmployee(employee);
   }
 
-  private saveEmployee() {
-    this.communicationServiceComponent.
+  private saveEmployee(employee: Employee) {
+    this.communicationServiceComponent.createEmployee(employee)
   }
 
   private deleteEmployee(employee: Employee) {
-    localStorageHelper.removeItem('ViewChild');
+    localStorageHelper.removeItem('Services');
     this.employeeList.splice(this.employeeList.findIndex((x: any) => x == employee), 1);
-    this.saveEmployee();
+
   }
 
   private editEmployee(employee: Employee) {
-    localStorageHelper.removeItem('ViewChild');
+    localStorageHelper.removeItem('Services');
     this.findIndexAndEdit(employee);
-    this.saveEmployee();
   }
 
   private getEmployee() {
-    var getAllUser = localStorageHelper.getItem<Array<Employee>>('ViewChild');
+    var getAllUser = localStorageHelper.getItem<Array<Employee>>('Services');
     if (getAllUser != undefined && getAllUser != null && getAllUser.length > 0) {
-      this.employeeList = getAllUser;     
+      this.employeeList = getAllUser;
     }
   }
 
@@ -79,7 +67,8 @@ export class EmployeeShareServiceComponent implements OnInit {
     });
   }
 
-  choiceEmployee(): number {     
-    return this.employeeList.filter(c => c.choiceEmployee == true).length;
+  choiceEmployee() {
+    let totalEmloyee = this.employeeList.filter(c => c.choiceEmployee == true).length;
+    this.communicationServiceComponent.totalEmployee(totalEmloyee);
   }
 }

@@ -18,9 +18,9 @@ export class CreateEmployeeUsingServiceComponent {
   constructor(private communicationServiceComponent: CommunicationServiceComponent) {
     this.employee = new Employee();
 
-    //load page next Subject 
-    this.communicationServiceComponent.componentChangeData$.subscribe(event => {
-      this.communicationServiceComponent.onRefreshEmployee();
+    //load page next Subject Called service return total number success
+    this.communicationServiceComponent.totalWhenChoiceEmployee$.subscribe(event => {
+       this.totalChoiceEmployee = event;
     })
 
   }
@@ -28,13 +28,8 @@ export class CreateEmployeeUsingServiceComponent {
   btAddEmployee() {
     this.employee.id = this.employee.id + 1;
     this.createModel = this.employee;
-
     this.communicationServiceComponent.createEmployee(this.createModel);
     this.employee = new Employee();
-  }
-
-  totalChoiceEmpolyee() {
-
   }
 
 }
