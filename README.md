@@ -2,7 +2,7 @@
 
 
 
-# Let me write what me feel about angular and in the work to experience always bring value. 
+# Let me write what me feel about angular and experience always bring value. 
 
 **+ You should know about the angular**
 
