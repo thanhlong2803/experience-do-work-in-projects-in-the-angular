@@ -42,7 +42,7 @@ How do use @Injectable() and @Inject?
 
 |![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/componentServices.png) | 
 
-|![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/importlibrary.png) | 
+|![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/prodiver.png) | 
 |![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/createservices.png) | 
 |![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/listenservices.png) | 
 
