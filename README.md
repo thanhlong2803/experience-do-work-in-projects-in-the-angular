@@ -24,7 +24,7 @@
 | The angular how import bootstrap for project| https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/angular-you-should-know/install-the-bootstrap-package  |
 | The angular how set and get for localStorage   | https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/the-angular-set-get-localstorage-project| 
 The angular how is use component and component interactions? | https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/the-angular-use-component-and-component-interactions  
-|Create small project management change department of employee. We use angular(material and MVC) and (Net 6 sql) interaction through Rest API   | + Create modal change department  and displaying show infomatin equal file pdf using pdf-viewer
+|Create small project management change department of employee. We use angular(material and MVC) and (Net 6 sql) interaction through Rest API   | + Create modal change department  and displaying show information equal file pdf using pdf-viewer
 |Create small project management collecting money from customers. We have use angular and (Net 6 Redis) interaction using Rest API||
 |||
 
