@@ -4,6 +4,16 @@
 
 # Let me write what me feel about angular and experience always bring value. 
 
+**+ Exprience you should know about the angular**
+
+| Exprience you should know  | Front-end |
+|--|--|
+| Create small project management change department of employee   |https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/project-change-management-change-department |
+| The angular how import bootstrap for project| https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/angular-you-should-know/install-the-bootstrap-package  ||
+| The angular how set and get for localStorage   | https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/the-angular-set-get-localstorage-project| |
+The angular how is use component and component interactions? | https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/the-angular-use-component-and-component-interactions | 
+
+
 **+ You should know about the angular**
 
 
@@ -17,15 +27,7 @@
 |How To Use Query Parameters with Angular Router?||
 |Why do we have to use @Injectable() and @Inject() in Angular? ||
 
-**+ Exprience you should know about the angular**
 
-| Exprience you should know  | Front-end |
-|--|--|
-| The angular how import bootstrap for project| https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/angular-you-should-know/install-the-bootstrap-package  ||
-| The angular how set and get for localStorage   | https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/the-angular-set-get-localstorage-project| |
-The angular how is use component and component interactions? | https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/the-angular-use-component-and-component-interactions | 
-| Create small project management change department of employee   |+ Create modal change department  and displaying show information equal file pdf using pdf-viewer ||
-|||
 
 **If you watch and should you spend a little time studying and practicing. Lucky to you and get more understand about it. You get more interested in the angular and net 6**
 
