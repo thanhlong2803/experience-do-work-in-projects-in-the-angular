@@ -8,7 +8,7 @@
 
 | Exprience you should know  | Front-end |
 |--|--|
-| Create project change department of employee.   |https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/project-change-management-change-department |
+| Create project change department of employee.   |https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/change-department-of-employee |
 | The angular how import bootstrap for project| https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/angular-you-should-know/install-the-bootstrap-package  ||
 | The angular how set and get for localStorage   | https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/the-angular-set-get-localstorage-project| |
 The angular how is use component and component interactions? | https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/the-angular-use-component-and-component-interactions | 
