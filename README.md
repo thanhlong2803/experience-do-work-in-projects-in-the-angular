@@ -24,7 +24,7 @@ The angular how is use component and component interactions? | https://github.co
 |What the component and component interactions?|https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/blob/main/angular-you-should-know/what-is-components-and-component-interactions-in-the-angular/README.md |
 |How to use Directives with Angualar?|https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/blob/main/angular-you-should-know/use-directives-with-angular/README.md|
 |How use Angular Material and options about it?||
-|RxJS in Angular: Reactive Development||
+|RxJS in Angular: Reactive Development|https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/edit/main/angular-you-should-know/RxJS-in-angular-reactive-development/README.md|
 |Typescript and ES5, ES6 & ES7 Methods You Should Know? |https://blog.alexdevero.com/javascript-arrays/|
 |How To Use Query Parameters with Angular Router?||
 |Why do we have to use @Injectable() and @Inject() in Angular? ||
