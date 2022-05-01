@@ -26,7 +26,7 @@ The angular how is use component and component interactions? | https://github.co
 |How would you protect a component being activated through the router? |CanActivate: Check if a user has access CanActivateChild: Check if a user has access to any of the child routes ```CanDeactivate: Can a user leave a page? For example, they haven't finished editing a post``` Resolve: Grab data before the route is instantiated ```CanLoad: Check to see if we can load the routes assets```|
 |How use Angular Material and options about it?|https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/blob/main/angular-you-should-know/material-in-angular/README.md|
 |RxJS in Angular: Reactive Development|https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/angular-you-should-know/RxJS-in-angular-reactive-development|
-|Typescript and ES5, ES6 & ES7 Methods You Should Know? |https://blog.alexdevero.com/javascript-arrays/|
+|Typescript and ES5, ES6 & ES7 Methods You Should Know? |https://exploringjs.com/es6/index.html#toc_ch_core-features|
 |How To Use Query Parameters with Angular Router?||
 |Why do we have to use @Injectable() and @Inject() in Angular? ||
 
