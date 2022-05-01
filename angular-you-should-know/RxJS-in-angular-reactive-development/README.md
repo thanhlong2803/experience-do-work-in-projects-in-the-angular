@@ -20,3 +20,14 @@ Code is ```reactive``` when an ```input change``` leads to an ```automactic chan
  - Communicate between components 
  - Handle shown failure 
  - Manage state
+
+
+
+
+**If you watch and should you spend a little time studying and practicing. Lucky to you and get more understand about it. You get more interested in the angular and net 6**
+
+
+
+|  |
+|--|
+|https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/change-department-of-employee  Change department of employee using (Angular Material, RxJS), NET6 Web API CRUD Operation With Entity Framework Core And SQL Server   |
