@@ -7,3 +7,4 @@ RxJS is designed to work with asynchronous actions and event.
 
 # How is RxJS (Reactive Extensions for Javascript) used in angular?
 
+![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/obserable.png)
