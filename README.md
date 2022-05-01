@@ -14,8 +14,7 @@
 The angular how is use component and component interactions? | https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/experience-you-should-know/the-angular-use-component-and-component-interactions | 
 
 
-**+ You should know about the angular**
-
+# You should know about the angular. 
 
 | Explain | Description  |
 |--|--|
