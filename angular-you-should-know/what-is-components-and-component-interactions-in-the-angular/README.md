@@ -44,4 +44,7 @@
 
 # We can pass data from the component of department to the component get all employee by department interaction throught a service
  
+# What's the difference between an Angular Component and Module?
+Components control views (html). They also communicate with other components and services to bring functionality to your app.
  
+Modules consist of one or more components. They do not control any html. Your modules declare which components can be used by components belonging to other modules, which classes will be injected by the dependency injector and which component gets bootstrapped. Modules allow you to manage your components to bring modularity to your app.
