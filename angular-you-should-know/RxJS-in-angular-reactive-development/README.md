@@ -25,8 +25,18 @@ Code is ```reactive``` when an ```input change``` leads to an ```automactic chan
 # RxJS Terms and Syntax
 
 ***What is an Observer?***  
+Observer is an interface for a consumer of push-based notifications delivered by an Observable. It has below structure,
 
 ***What is an Observable?*** 
+An Observable is a unique Object similar to a Promise that can help manage async code. Observables are not part of the JavaScript language so we need to rely on a popular Observable library called RxJS.
+The observables are created using new keyword. Let see the simple example of observable
+` import { Observable } from 'rxjs';
+
+    const observable = new Observable(observer => {
+      setTimeout(() => {
+        observer.next('Hello from a Observable!');
+      }, 2000);
+    });`
 
 ***Observer ***
 
