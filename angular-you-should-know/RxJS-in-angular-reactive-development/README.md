@@ -23,6 +23,11 @@ Code is ```reactive``` when an ```input change``` leads to an ```automactic chan
  - Manage state
 
 # RxJS Terms and Syntax
+
+***What is an Observer?***  
+
+***What is an Observable?*** 
+
 ***Observer ***
 
  - Next item, process it    | Observer use next()       
