@@ -1,6 +1,11 @@
-#  What is the angular and explain why people do work with angular.
+#  Discuss Some Advantages of Using Angular.
 
-![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/wta.png)
 
-#  Conclusion
-The Angular framework is a powerful cross-platform JavaScript framework that can satisfy any business needs including the enterprise sector. To learn more about how you can get started with Angular. you can watch my projects : https://github.com/thanhlong2803/internal-departmant-transfer-letter and  https://github.com/thanhlong2803/download-many-file-in-angular. Spend a litile time each day studying and search it.  
+There are many  advantages  [thuận lợi]  x  apart from the fact that Angular  gives  [cho]  x  us a  break  [phá vỡ]  x  from the MVC pattern, as it follows a Component-based structure. Here are some more  critical  [phê bình]  x  benefits  [những lợi ích]  x  –
+
+-   Supports two-way data binding.
+-   Supports validations and template syntax (both angular and static).
+-   We can add custom  animations  [hình ảnh động]  x, directives, and services.
+-   The event handling  process  [tiến trình]  x  is  seamless  [liền mạch]  x.
+-   Hierarchical Dependency Injection structure (Parent-child).
+-   Provision  [Sự cung cấp]  x  to  facilitate  [tạo điều kiện]  x  RESTful services and client-server communication.
