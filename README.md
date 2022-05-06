@@ -21,6 +21,7 @@ The angular how is use component and component interactions? | https://github.co
 |What is angular? | https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/blob/main/angular-you-should-know/What-is-angular/README.md |
 |How does an Angular application work?| |
 |What are lifecycle hooks in Angular? Explain a few lifecycle hooks?||
+|How are observables different from promises?||
 |What is use localStorage?|It’s enables use set value and get value for localStorage, So It help use for handel Login and Logout and Remember to check validate token and save value use whereever.|
 |What the component and component interactions?|https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/blob/main/angular-you-should-know/what-is-components-and-component-interactions-in-the-angular/README.md |
 |How to use Directives with Angualar?|https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/blob/main/angular-you-should-know/use-directives-with-angular/README.md|
