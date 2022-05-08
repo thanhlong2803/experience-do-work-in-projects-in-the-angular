@@ -8,6 +8,8 @@ To find the entry point, angular looks into the main property of the `angular.js
 The `main.ts` property defines the entry point of the application, which in the above case, is main.ts 
 `"main":"src/index.html"`
 Angular has found the entry point, let's move on step two.
+![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/main.ts.png)
+
 # Step 2: The main.ts file creates a browser environment and loads the module
 The angular application require a browse environment to run and, to create an angular application, we require a module.
 Creating a browser environment and loading the module gets done in a single step inside the `main.ts`
