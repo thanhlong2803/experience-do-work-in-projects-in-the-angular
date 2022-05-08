@@ -34,6 +34,7 @@ The angular how is use component and component interactions? | https://github.co
 |How Is Dependency Injection (DI) Done in Angular|https://github.com/thanhlong2803/experience-do-work-in-projects-in-the-angular/tree/main/angular-you-should-know/dependency-injection|
 |How To Use Query Parameters with Angular Router?||
 |Why do we have to use @Injectable() and @Inject() in Angular? ||
+|Tìm hiểu về webpack||
 
 
 
