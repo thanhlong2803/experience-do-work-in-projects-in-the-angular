@@ -1,13 +1,6 @@
-
-
 # What are lifecycle hooks in Angular? Explain a few lifecycle hooks?
 
-![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/liflecyle.png)
-
-
-# What are lifecycle hooks in Angular? Explain a few lifecycle hooks?
-
-![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/liflecyle.png)
+![enter image description here](https://github.com/thanhlong2803/update-image/blob/main/image4/liflecyle.png)Cancel changes
 #  1.Contructor run first of a component
  
 
